@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset style="border-radius: 30px">
+      <form>
+        <label for="fn"> Enter frist name: </label>
+        <input
+          type="text"
+          name="fname"
+          id="fn"
+          placeholder="enter frist name"
+        />
+        <br /><br />
+        <label for="ln"> Enter last name:</label>
+        <input type="text" name="" id="ln" placeholder="enter last name" />
+
+        <br /><br />
+        <label for="up"> Enter password:</label>
+        <input
+          type="password"
+          name="uass"
+          id="UP"
+          placeholder="enter password"
+        />
+
+        <br /><br />
+        <label for="UE"> Enter email:</label>
+        <input type="email" name="uemail" id="UE" placeholder="enter email" />
+
+        <br /><br />
+        <label for="NUM"> Enter number:</label>
+        <input
+          type="number"
+          name="unumber"
+          id="NUM"
+          placeholder="enter number"
+        />
+
+        <br /><br />
+        <label for="UT"> Enter time:</label>
+        <input type="time" name="utime" id="UT" />
+
+        <br /><br />
+        <label for="UD"> Enter date:</label>
+        <input type="date" name="udate" id="UD" />
+
+        <br /><br />
+        <label for="LD"> Enter date:</label>
+        <input type="datetime-local" name="udate" id="LD" />
+
+        <br /><br />
+        <label for="YR"> Enter the range:</label>
+        <input type="range" name="urange" id="UR" />
+
+        <br /><br />
+        <label for="CV"> upload a resume</label>
+        <input type="file" name="ufile" id="CV" />
+
+        <br /><br />
+        <h3>select gender</h3>
+        <label for="M">Male</label>
+        <input type="radio" name="gender" value="male" id="M" />
+        <label for="F">Female</label>
+        <input type="radio" name="gender" value="Female" id="F" />
+        <label for="O">other</label>
+        <input type="radio" name="gender" value="other" id="O" />
+        <br /><br />
+        <h2>select lanagage</h2>
+        <input type="checkbox" name="languages[]" value="python" id="py" />
+        <label for="py">python</label>
+        <br /><br />
+        <input type="checkbox" name="languages[]" value="java" id="java" />
+        <label for="java">java</label>
+        <br /><br />
+        <input type="checkbox" name="languages[]" value="javascript" id="js" />
+        <label for="js">javascript</label>
+        <br /><br />
+
+        <h1>select technologies</h1>
+        <select name="techname" id="">
+          <option value="C++">c++</option>
+          <option value="java">java</option>
+          <option value="javascript">javascript</option>
+          <option value="python">python</option>
+          <option value="RWD">RWD</option>
+        </select>
+        <br /><br /><br />
+        <label for="RU">Review us:</label>
+        <br />
+        <textarea name="Review" id="RU" cols="30" rows="10"></textarea>
+        <br /><br />
+        <input type="reset" name="" id="" value="reset" />
+        <input type="hidden" name="IP" value="157.240.192.0/24" />
+        <!-- <button>submit</button> -->
+        <input type="submit" value="login" />
+        <input type="image" src="1.jpg" height="5%" width="5%" />
+
+        <audio controls>
+          <source src="On My Way.mp3" >
+        </audio>
+        <br /><br /><br /><br /><br /><br />
+        <video width="200px" controls autoplay loop>
+          <source src="video.mp4" >
+        </video>
+      </form>
+    </fieldset>
+  </body>
+</html>

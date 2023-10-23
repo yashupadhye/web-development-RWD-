@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        div{
+            width: 30%;
+            background:yellowgreen;
+            height: 800px;
+            border-radius: 10px;
+        }
+        fieldset{
+            background-color: rgb(185, 230, 95);
+            width: 80%;
+            margin-left: 30px;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 30px;
+        }
+        input{
+            margin-left: 20px;
+            outline: none;
+            border: none;
+        }
+        button{
+            margin-left: 40%;
+            width: 25%;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            background-color:dimgray;
+            color: white;
+        }
+        input{
+            padding: 6px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Step 1 Your Details</p>
+        <fieldset>
+            <label for="fname">Name</label>
+            <input type="text" id="fname"  placeholder="frist and last name">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@domain.com">
+        </fieldset>
+        <fieldset>
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" placeholder="example:1234456">
+        </fieldset>
+        <p>step 2 Delivery address</p>
+        <fieldset>
+            <label for="add">address</label><br>
+          <textarea name="" id="add" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="postcode">post code</label>
+            <input type="number" id="postcode">
+        </fieldset>
+        <fieldset>
+            <label for="con">country</label>
+            <input type="text" id="con">
+        </fieldset>
+        <p>step 3 card Detalis</p>
+        <fieldset> 
+            <label for="">cade type</label><br><br>
+        <input type="radio" name="visa" id="cade1">
+        <label for="cade1">visa</label>
+        <input type="radio" name="visa" id="cade2">
+        <label for="cade2">AmEX</label>
+        <input type="radio" name="visa" id="cade3">
+        <label for="cade3">Mastercade</label>
+        </fieldset>
+        <fieldset>
+            <label for="cadenum">cade number</label>
+            <input type="number" id="cadenum">
+        </fieldset>
+        <fieldset>
+            <label for="seccode">security code</label>
+            <input type="number" id="seccode">
+        </fieldset>
+        <fieldset>
+            <label for="namecade">Name of cade</label>
+            <input type="text"  id="namecade" placeholder=" Exact Name of the card">
+        </fieldset>
+         <br><br>
+        <button>BUY IT !</button>
+    </div>
+</body>
+</html>

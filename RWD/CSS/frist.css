@@ -1,0 +1,16 @@
+  p{  
+     color: yellowgreen; 
+ color: rgb(19, 96, 164); 
+ color: #ffffff;
+
+
+}  
+body{
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  
+}
+

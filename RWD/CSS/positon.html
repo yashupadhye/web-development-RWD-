@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     
+     
+  
+      .con {
+        height: 500px;
+        width: 500px;
+        border: 1px solid red;
+
+       
+      }
+      #box1{
+         background-color: aqua;
+         border: 1px solid black;
+         width: 100px;
+         height: 100px;
+         position: relative;
+         top: 50px;
+         z-index: -1;
+        
+      }
+      #box2{
+         background-color: yellowgreen;
+         width: 100px;
+         height: 100px; 
+         z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+     <div class="box" id="box1">Box1</div>
+     <div class="box" id="box2">Box</div>
+  </body>
+</html>
